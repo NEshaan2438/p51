@@ -1,0 +1,22 @@
+body {
+    font-weight: 100;
+    font-family: monospace;
+    text-align: center;
+    color: navy;
+    background-image: linear-gradient(lightgreen 0%, lightseagreen 300%);
+    background-repeat: no-repeat;
+    height: 801px;
+}
+
+hr {
+    border-color: navy;
+    width: 75%;
+    animation-name: comein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes comein {
+    from{width: 1%;}
+    to{width: 75%;}
+}
